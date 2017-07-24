@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Cine
+namespace Cine.Venta
 {
-    public class Class1
+    public class VentaDTO
     {
+        public long Id { get; set; }
     }
 }
